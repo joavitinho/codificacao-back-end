@@ -26,8 +26,7 @@
 ## 📖 Sobre o Projeto
 
 Forneça um panorama geral detalhado do projeto. Explique o motivo pelo qual ele foi desenvolvido, o contexto do problema e a solução entregue pela aplicação.
-
-Você também pode incluir capturas de tela, GIFs interativos ou diagramas do sistema nesta seção:
+cls
 
 ![Demonstração da Aplicação](https://via.placeholder.com/800x400.png?text=Demonstracao+da+Interface)
 
