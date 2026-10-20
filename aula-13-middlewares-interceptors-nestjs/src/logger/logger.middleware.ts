@@ -1,0 +1,19 @@
+import { Injectable, NestMiddleware } from '@nestjs/common';
+import { Request, Response,NextFunction } from  'express'
+
+@Injectable()
+export class LoggerMiddleware implements NestMiddleware {
+  use(req: Request, res: Response, next: NextFunction ) {
+    console.log(`[LOG] Metodo: ${req.method} | Rota: ${req.path}`);
+
+    if(req.path.startsWith('/admin')){
+const role = req.headers['x-user-role'];
+if(role !== 'supervisor'){
+  return res.status(403).json({
+    message: 'Acesso Negado: Privilegio de Supervisor Necessario',
+    log: new Date(),
+  })
+}
+    }
+  }
+}
