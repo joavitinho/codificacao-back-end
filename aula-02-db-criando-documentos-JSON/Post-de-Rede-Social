@@ -1,0 +1,17 @@
+{
+    "texto": "Olá, pessoal! Estou animado para compartilhar minha primeira postagem nesta rede social. Espero que todos tenham um ótimo dia!",
+    "autor": "João Vitor",
+    "Data": "2026-10-20",
+    "Curtida": "100",
+    "Comentarios":[
+        {
+            "autor": "Joãvinho",
+            "texto": "Parabéns pela postagem, João! Que bom ver você participando da comunidade."
+        },
+        {
+            "autor": "Vitoria",
+            "texto": "Bem-vindo à rede social, João! Espero que você aproveite bastante."
+        }
+    ]
+    
+}

@@ -1,0 +1,14 @@
+{
+  "name": "aula04-tratamento-global-excecoes",
+  "version": "1.0.0",
+  "description": "> Repositório dedicado aos meus estudos e práticas na unidade curricular de **Codificação Back-End**, desenvolvidos durante as aulas.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

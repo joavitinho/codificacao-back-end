@@ -13,9 +13,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/joavitinho/codificacao-back-end/issues"
   },
-  "homepage": "https://github.com/joavitinho/codificacao-back-end#readme"
+  "homepage": "https://github.com/joavitinho/codificacao-back-end#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^12.2.0",
+    "@types/jest": "^30.0.0",
+    "vitest": "^5.0.5"
+  }
 }
